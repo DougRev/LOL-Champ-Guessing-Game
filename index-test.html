@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-test.css">
+    <script type="module" src="index-test.js"></script>
+</head>
+<body>
+    <div id="title-container">
+        <h1 id="title">Guess The Champ</h1>
+    </div>
+    <div class="game-board">
+
+        <div class="column1">
+            <div class="row-container">
+                <h2>Champ:</h2>
+            </div>
+            <div class="row-container">
+                <h2>Lane:</h2>
+            </div>
+            <div class="row-container">
+                <h2>Role:</h2>
+
+            </div>
+            <div class="row-container">
+                <h2>Passive:</h2>
+                
+            </div>
+            <div class="row-container">
+                <h2>Q:</h2>
+                
+            </div>
+            <div class="row-container">
+                <h2>W:</h2>
+                
+            </div>
+            <div class="row-container">
+                <h2>E:</h2>
+                
+            </div>
+            <div class="row-container">
+                <h2>R:</h2>
+                
+            </div>
+        </div>
+    
+        <div class="column2">
+            <div class="row-container">
+                <p id="champ"></p>
+            </div>
+            <div class="row-container">
+                <p id="lane"></p>
+            </div>
+            <div class="row-container">
+                <p id="role"></p>
+            </div>
+            <div class="row-container">
+                <p id="passive"></p>
+
+            </div>
+            <div class="row-container">
+                <p id="q"></p>
+
+            </div>
+            <div class="row-container">
+                <p id="w"></p>
+
+            </div>
+            <div class="row-container">
+                <p id="e"></p>
+
+            </div>
+            <div class="row-container">
+                <p id="r"></p>
+            </div>
+        </div>
+            <div class="column3">
+                <button id="champ-btn" >Click</button>
+
+                <button id="lane-btn">Hint</button>
+
+                <button id="role-btn">Hint</button>
+
+                <button id="passive-btn">Hint</button>
+
+                <button id="q-btn">Hint</button>
+
+                <button id="w-btn">Hint</button>
+
+                <button id="e-btn">Hint</button>
+
+                <button id="r-btn">Hint</button>
+            </div>
+            <form name="guess-form" id="guessField" onsubmit="return checkGuess()">
+                <input type="text" id="guess" value="Your Guess Here"><br><br>
+                <input type="submit" id="submit-btn" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+#title-container {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.game-board {
+    outline-style: outset;
+    outline-color: beige;
+    width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(169, 169, 169, 0.116);
+}
+
+.column1 {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.column3 {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.row {
+    font-size: 23px;
+    text-align: center;
+
+  }
+button {
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+h2, p {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.row-container {
+    width: 200px;
+    height: 40px;
+    display: inline-flex;
+}
+
+form {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#submit-btn{
+    background-color:lightblue;
+    width: 178px;
+    margin-right: auto;
+    margin-left: auto;
+}

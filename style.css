@@ -1,0 +1,33 @@
+
+#champ-container,#lane-container,#role-container, #passive-container, #q-container, #w-container, #e-container, #r-container {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: solid black;
+    text-align: center;
+}
+#champ,#lane,#role,#passive,#q,#w,#e,#r {
+    display: block;
+    margin: 0;
+
+}
+
+#title-container {
+    position: relative;
+    text-align: center;
+}
+
+.champ-container, .lane-container, .role-container, .passive-container, .q-container, .w-container, .e-container, .r-container {
+    position: relative;
+    display: flex;
+}
+
+#champ-btn, #role-btn, #passive-btn, #lane-btn, #q-btn, #w-btn, #e-btn, #r-btn {
+    height: 20px;
+}
+
+#champbtn-container, #lanebtn-container, #rolebtn-container, #pbtn-container, #qbtn-container, #wbtn-container, #ebtn-container, #rbtn-container{
+    margin-top: 20px;
+    margin-left: 5px;
+}
